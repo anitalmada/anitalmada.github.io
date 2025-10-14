@@ -1,10 +1,5 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
@@ -12,11 +7,6 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 title: Con Alma tech
 email: ana@conalma.tech
@@ -24,16 +14,57 @@ description: >- # this means to ignore newlines until "baseurl:"
   Espacio de aprendizaje para usar la tecnología a nuestro favor.
   Servicios de soporte técnico, consultoría y capacitación tecnológica.
   Blog de tecnología, software libre y cultura digital.
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anitalmada.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+keywords: "educación - tecnología- cultura digital - soporte técnico - consultoría tecnológica - capacitación tecnológica"
+skills: "Consultora - Docente - Speaker"
+meta_author: Ana Almada
+
+contact: static
+
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+social:
+  - title: instagram
+    url: https://www.instagram.com/conalma.tech/
+  - title: whatsapp
+    url: https://wa.me/5491136353030
+  - title: linkedin
+    url: https://www.linkedin.com/in/anaitalmada/
+
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      permalink: "/blog/:title/"
 
 # Build settings
-remote-theme: https://github.com/jeromelachaud/freelancer-theme/
+theme: null
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+
+# Force index page
+index_page: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
