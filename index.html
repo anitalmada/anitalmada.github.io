@@ -8,7 +8,7 @@ description: Soluciones tecnológicas simples para problemas concretos
 <section id="inicio" class="hero">
     <div class="container hero-content">
         <h1>Soluciones tecnológicas simples para problemas concretos</h1>
-        <p class="hero-subtitle">[Tu tagline va aquí: Ejemplo de frase inspiradora o descriptiva]</p>
+        <p class="hero-subtitle">Con Alma Tech - La tecnología siempre de tu lado</p>
         <a href="#servicios" class="cta-btn">Saber más</a>
     </div>
 </section>
@@ -93,6 +93,31 @@ description: Soluciones tecnológicas simples para problemas concretos
                 <h3>Soporte Web</h3>
                 <p>Mantenimiento y actualización de aplicaciones, soporte técnico remoto para mantener tu tecnología funcionando.</p>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="section">
+    <div class="container">
+        <h2 class="section-title">Blog</h2>
+        
+        <div class="posts">
+            {% for post in site.posts limit:3 %}
+                <article class="post">
+                    {% if post.image %}
+                        <div class="post-image">
+                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+                        </div>
+                    {% endif %}
+                    <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <div class="post-excerpt">
+                        {{ post.excerpt | default: post.content | strip_html | truncate: 200 }}
+                    </div>
+                    <a href="{{ post.url }}" class="read-more">Leer más</a>
+                </article>
+            {% endfor %}
         </div>
     </div>
 </section>
