@@ -1,4 +1,100 @@
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1301;
+    position: fixed;
+    top: 24px;
+    right: 24px;
+}
+.hamburger .bar {
+    width: 28px;
+    height: 4px;
+    background: #3A663A;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.hamburger.open .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Hide mobile menu by default */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #f8eee5ee;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1200;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+.mobile-menu.open {
+    display: flex;
+    opacity: 1;
+}
+@media (max-width: 900px) {
+    .desktop-nav {
+        display: none !important;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .mobile-menu .nav {
+        flex-direction: column;
+        gap: 2.5rem;
+        align-items: center;
+    }
+    .mobile-menu .contact-btn {
+    margin-top: 2.5rem;
+    text-align: center;
+    background: #3A663A;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    white-space: normal;
+    overflow-wrap: break-word;
+    }
+    .logo img {
+        height: 4.5rem;
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo img {
+        height: 5.5rem;
+        max-width: 260px;
+    }
+    .nav-mobile {
+        padding: 70px 0 10px 0;
+    }
+}
 /* Con Alma Tech - Custom Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +103,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #FDFBF8 0%, #F5F0E8 100%);
+    font-family: 'Afacad', sans-serif;
+    background: #F8EEE5;
     color: #3A663A;
     line-height: 1.6;
 }
@@ -21,18 +117,48 @@ body {
 
 /* Header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(253, 251, 248, 0.95);
+    background: #F8EEE5;
     backdrop-filter: blur(10px);
     z-index: 1000;
-    border-bottom: 1px solid rgba(58, 102, 58, 0.1);
+    width: 100%;
+}
+
+
+.header .container.navbar-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+    padding: 0 20px;
+}
+
+.navbar-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    flex: 1 1 0;
+    justify-content: flex-start;
+}
+.navbar-center {
+    flex: 2 1 0;
+    justify-content: center;
+}
+.navbar-right {
+    flex: 1 1 0;
+    justify-content: flex-end;
 }
 
 .logo {
@@ -44,16 +170,12 @@ body {
     color: #3A663A;
 }
 
-.logo-icon {
-    width: 40px;
-    height: 40px;
-    background: #3A663A;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 20px;
+.logo img {
+    height: 5rem;
+    max-width: 180px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .nav {
@@ -65,7 +187,9 @@ body {
 .nav a {
     color: #3A663A;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.01em;
     transition: color 0.3s ease;
 }
 
@@ -89,8 +213,43 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 120px 0 80px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0 90px 0;
     text-align: center;
+    margin-top: 60px;
+    background: radial-gradient(ellipse at bottom left, #b6e2c6 0%, #f8eee5 60%, #f8eee5 100%);
+    border-radius: 0 0 60px 60px / 0 0 80px 80px;
+    box-shadow: 0 8px 32px 0 rgba(58,102,58,0.07);
+}
+
+.hero-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero h1 {
+    font-size: 4.7rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #3A663A;
+    line-height: 1.08;
+}
+
+.hero-subtitle {
+    font-size: 1.7rem;
+    color: #2A4A2A;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    max-width: 700px;
+    opacity: 0.85;
 }
 
 .hero h1 {
@@ -351,16 +510,65 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Responsive Breakpoints */
+
+/* Desktop - Large screens (1024px and up) */
+@media (min-width: 1024px) {
     .header {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 20px 0;
+    }
+    
+    .nav {
+        gap: 30px;
+    }
+    
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* Tablet - Medium screens (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 18px 0;
+    }
+    
+    .nav {
+        gap: 25px;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Mobile - Small screens (480px and below) */
+@media (max-width: 480px) {
+    .header {
+        flex-direction: row !important;
+        gap: 10px;
         padding: 15px 0;
     }
     
     .nav {
-        gap: 20px;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav a {
+        font-size: 14px;
+    }
+    
+    .contact-btn {
+        padding: 8px 15px;
+        font-size: 14px;
     }
     
     .hero h1 {
@@ -369,10 +577,14 @@ body {
     
     .services-grid {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 30px;
     }
     
     .section {
-        padding: 60px 0;
+        padding: 50px 0;
+    }
+    
+    .container {
+        padding: 0 15px;
     }
 }
