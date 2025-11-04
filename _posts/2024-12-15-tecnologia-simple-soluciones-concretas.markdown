@@ -34,4 +34,4 @@ Hemos ayudado a emprendedores a:
 
 Si sientes que la tecnología te está complicando más que ayudando, es hora de buscar una solución simple y efectiva. 
 
-[Contacta con nosotros](https://wa.me/5491136353030) para una consulta gratuita y descubramos juntos cómo la tecnología puede simplificar tu trabajo.
+[Contacta con nosotros](https://wa.me/5493516789757) para una consulta gratuita y descubramos juntos cómo la tecnología puede simplificar tu trabajo.

@@ -1,3 +1,7 @@
+/* Con Alma Tech - Custom Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 /* Hamburger menu styles */
 .hamburger {
     display: none;
@@ -13,6 +17,8 @@
     position: fixed;
     top: 24px;
     right: 24px;
+    padding: 0;
+    outline: none;
 }
 .hamburger .bar {
     width: 28px;
@@ -21,6 +27,7 @@
     margin: 4px 0;
     border-radius: 2px;
     transition: 0.3s;
+    display: block;
 }
 .hamburger.open .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
@@ -40,61 +47,69 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: #f8eee5ee;
+    background: #f8eee5;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 1200;
-    transition: opacity 0.3s;
+    z-index: 1300;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
     opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
 }
 .mobile-menu.open {
     display: flex;
     opacity: 1;
+    visibility: visible;
 }
 @media (max-width: 900px) {
     .desktop-nav {
         display: none !important;
     }
     .hamburger {
-        display: flex;
+        display: flex !important;
+        visibility: visible !important;
     }
     .mobile-menu .nav {
         flex-direction: column;
         gap: 2.5rem;
         align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+    .mobile-menu .nav a {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
     }
     .mobile-menu .contact-btn {
-    margin-top: 2.5rem;
-    text-align: center;
-    background: #3A663A;
-    color: #fff !important;
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 12px 28px;
-    border-radius: 25px;
-    text-decoration: none;
-    white-space: normal;
-    overflow-wrap: break-word;
+        margin-top: 2.5rem;
+        text-align: center;
+        font-size: 1.1rem;
+        white-space: normal;
+        overflow-wrap: break-word;
+        display: inline-block;
     }
     .logo img {
         height: 4.5rem;
         max-width: 220px;
     }
+    /* Prevent body scroll when menu is open */
+    body.menu-open {
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 600px) {
     .logo img {
-        height: 5.5rem;
-        max-width: 260px;
+        height: 4rem;
+        max-width: 200px;
     }
     .nav-mobile {
         padding: 70px 0 10px 0;
     }
 }
-/* Con Alma Tech - Custom Styles */
-
-@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -175,7 +190,6 @@ body {
     height: 5rem;
     max-width: 180px;
     width: auto;
-    max-width: 100%;
     object-fit: contain;
 }
 
@@ -569,17 +583,6 @@ body {
 
 /* Desktop - Large screens (1024px and up) */
 @media (min-width: 1024px) {
-    .header {
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        padding: 20px 0;
-    }
-    
-    .nav {
-        gap: 30px;
-    }
-    
     .hero h1 {
         font-size: 4.5rem; /* Increased from 3.5rem to maintain larger size */
     }
@@ -588,9 +591,6 @@ body {
 /* Tablet - Medium screens (768px to 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
     .header {
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
         padding: 18px 0;
     }
     
@@ -606,7 +606,6 @@ body {
 /* Mobile - Small screens (480px and below) */
 @media (max-width: 480px) {
     .header {
-        flex-direction: row !important;
         gap: 10px;
         padding: 15px 0;
     }
@@ -678,7 +677,8 @@ body {
     margin-top: 20px; /* Reduced from 40px for tighter spacing */
 }
 
-.post {
+.post,
+.blog-page .post {
     background: #FDFBF8;
     padding: 30px;
     border-radius: 15px;
@@ -698,13 +698,15 @@ body {
     color: #3A663A;
 }
 
-.post-title a {
+.post-title a,
+.blog-page .post h2 a {
     color: #3A663A;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.post-title a:hover {
+.post-title a:hover,
+.blog-page .post h2 a:hover {
     color: #2A4A2A;
 }
 
@@ -789,11 +791,7 @@ body {
 }
 
 .blog-page .post {
-    background: #FDFBF8;
-    padding: 30px;
     margin-bottom: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(58, 102, 58, 0.1);
 }
 
 .blog-page .post h2 {
@@ -802,33 +800,23 @@ body {
     font-size: 1.5rem;
 }
 
-.blog-page .post h2 a {
-    color: #3A663A;
-    text-decoration: none;
-}
-
 .blog-page .post h2 a:hover {
     color: #2A4A2A;
 }
 
 /* Blog Post Page Styles */
-.post-page {
-    max-width: 800px;
-    margin: 120px auto 40px auto;
-    padding: 40px 20px;
-    background: #FDFBF8;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(58, 102, 58, 0.1);
+body.post-page .section {
+    padding-top: 100px;
 }
 
-.post-header {
+.about-card-single .post-header {
     text-align: center;
     margin-bottom: 40px;
     padding-bottom: 30px;
     border-bottom: 2px solid #E8F5E8;
 }
 
-.post-page-title {
+.about-card-single .post-title {
     font-size: 2.5rem;
     font-weight: bold;
     color: #3A663A;
@@ -836,68 +824,83 @@ body {
     line-height: 1.2;
 }
 
-.post-page-meta {
+.about-card-single .post-meta {
     color: #666;
     font-size: 1.1rem;
     font-style: italic;
     margin: 0;
 }
 
-.post-content {
-    color: #333;
-    line-height: 1.8;
-    font-size: 1.1rem;
+.about-card-single .post-content {
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.125rem;
+    text-align: left;
 }
 
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
+.about-card-single .post-content p {
+    margin-bottom: 20px;
+}
+
+.about-card-single .post-content p:last-child {
+    margin-bottom: 0;
+}
+
+.about-card-single .post-content h1,
+.about-card-single .post-content h2,
+.about-card-single .post-content h3,
+.about-card-single .post-content h4,
+.about-card-single .post-content h5,
+.about-card-single .post-content h6 {
     color: #3A663A;
     margin-top: 40px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-.post-content h1 {
+.about-card-single .post-content h1 {
     font-size: 2.2rem;
     border-bottom: 2px solid #E8F5E8;
     padding-bottom: 10px;
 }
 
-.post-content h2 {
+.about-card-single .post-content h2 {
     font-size: 1.8rem;
     border-bottom: 1px solid #E8F5E8;
     padding-bottom: 8px;
 }
 
-.post-content h3 {
+.about-card-single .post-content h3 {
     font-size: 1.5rem;
 }
 
-.post-content h4 {
+.about-card-single .post-content h4 {
     font-size: 1.3rem;
 }
 
-.post-content p {
-    margin-bottom: 20px;
-}
-
-.post-content ul,
-.post-content ol {
-    margin-bottom: 20px;
-    padding-left: 30px;
-}
-
-.post-content li {
-    margin-bottom: 8px;
-}
-
-.post-content blockquote {
-    border-left: 4px solid #3A663A;
+.about-card-single .post-content ul,
+.about-card-single .post-content ol {
+    margin: 15px 0 20px 0;
     padding-left: 20px;
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.125rem;
+}
+
+.about-card-single .post-content li {
+    margin-bottom: 12px;
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.125rem;
+    text-align: left;
+}
+
+.about-card-single .post-content li:last-child {
+    margin-bottom: 0;
+}
+
+.about-card-single .post-content blockquote {
+    border-left: 4px solid #3A663A;
     margin: 30px 0;
     font-style: italic;
     color: #666;
@@ -906,7 +909,7 @@ body {
     border-radius: 0 10px 10px 0;
 }
 
-.post-content code {
+.about-card-single .post-content code {
     background: #F0F0F0;
     padding: 2px 6px;
     border-radius: 4px;
@@ -915,7 +918,7 @@ body {
     font-size: 0.9em;
 }
 
-.post-content pre {
+.about-card-single .post-content pre {
     background: #F0F0F0;
     padding: 20px;
     border-radius: 10px;
@@ -924,25 +927,25 @@ body {
     border: 1px solid #E0E0E0;
 }
 
-.post-content pre code {
+.about-card-single .post-content pre code {
     background: none;
     padding: 0;
     color: #333;
 }
 
-.post-content a {
+.about-card-single .post-content a {
     color: #3A663A;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-.post-content a:hover {
+.about-card-single .post-content a:hover {
     color: #2A4A2A;
     text-decoration: underline;
 }
 
-.post-content img {
+.about-card-single .post-content img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -950,7 +953,7 @@ body {
     margin: 20px 0;
 }
 
-.post-content table {
+.about-card-single .post-content table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
@@ -960,20 +963,20 @@ body {
     box-shadow: 0 3px 10px rgba(58, 102, 58, 0.1);
 }
 
-.post-content th,
-.post-content td {
+.about-card-single .post-content th,
+.about-card-single .post-content td {
     padding: 12px 15px;
     text-align: left;
     border-bottom: 1px solid #E8F5E8;
 }
 
-.post-content th {
+.about-card-single .post-content th {
     background: #3A663A;
     color: #fff;
     font-weight: bold;
 }
 
-.post-content tr:hover {
+.about-card-single .post-content tr:hover {
     background: #F8F8F8;
 }
 
@@ -1021,4 +1024,36 @@ body {
     background: #2A4A2A;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(58, 102, 58, 0.3);
+}
+
+/* 404 Error Page Styles */
+.error-404 {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.error-404 h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: #3A663A;
+}
+
+.error-404 p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.error-404 p strong {
+    color: #3A663A;
+    font-weight: 600;
+}
+
+/* Hide navigation menu on post pages */
+body.post-page .post-nav-hide {
+    display: none !important;
 }
