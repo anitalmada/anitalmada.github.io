@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2025-10-21 10:00:00 -0300
+date: 2025-11-05 10:00:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
