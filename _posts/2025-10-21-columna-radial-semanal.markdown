@@ -15,6 +15,8 @@ Todos los miércoles a las 9:30hs nos escuchamos online o en el 98.1 del dial si
 
 ### 1. **La captura y degradación de las aplicaciones y servicios online**
 
+Fecha: 5/11/2025
+
 A partir de lo que Cory Doctorow denomina _enshittification_ y su "tragedia en 3 actos" analizamos cómo la experiencia de los usuarios ha empeorado en los últimos años debido a las decisiones de diseño de las plataformas.
 Explicamos cada uno de estos 3 actos y hacemos un paralelismo con lo que pasaría si eso se trasladara a un espacio público.
 
@@ -24,17 +26,32 @@ Explicamos cada uno de estos 3 actos y hacemos un paralelismo con lo que pasarí
 
 ### 2. **La caída temporal de servicios de AWS**
 
+Fecha: 21/10/2025
+
 Comentamos acerca de lo frágil que puede llegar a resultar una infraestructura tan concentrada, teniendo en cuenta que los sistemas están cada vez más interconectados.
 Aprovechamos para contar nuevamente cómo funciona internet y qué es exactamente la computación "en la nube", cuyo principal proveedor hoy por hoy es AWS.
 
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-caaida-de-aws-21-oct" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
-### 2. **Anuncios de OpenAI en Argentina**
+### 3. **Anuncios de OpenAI en Argentina**
+
+Fecha: 14/10/2025
 
 Luego del anuncio a través de un video y las gacetillas oficiales de OpenAI en Argentina, aclaramos algunos impportantes acerca de qué es realmente lo que se estaba planificando.
+Los data centers son críticos para el funcionamiento del ecosistema virtual en la actualidad, pero habitualmente requieren de condiciones de infraestructura muy específicos y consumen recursos naturales en los lugares donde se instalan.
 
-Los data centers son críticos para el funcionamiento del ecosistema virtual en la actualidad, pero habitualmente requieren de condiciones de infraestructura muy específicos y consumen recursos naturales en los lugares donde se instalan
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-anuncio-de-data-center-de-open-ai-14-oct" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
+### 4. **Endeudamiento 3.0**
 
-### 3. **Endeudamiento 3.0**
+Fecha: 7/10/2025
 
 Cómo fue mutando el universo de las FinTech en Argentina a partir del surgimiento de las denominadas "billeteras virtuales": lo que comenzó siendo una medida excelente para apuntalar la inclusión financiera se terminó convirtiendo en muchos casos en la nueva forma de endeudamiento para la mayoría de los ciudadanos con acceso a un celular y una aplicación mobile.
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-endeudamiento-fintech-7-oct" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
