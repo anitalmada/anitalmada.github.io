@@ -12,7 +12,17 @@ Te dejo el listado actualizado con las columnas disponibles para que las puedas 
 
 Todos los miércoles a las 9:30hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
 
-### 1. **La caída temporal de servicios de AWS**
+
+### 1. **La captura y degradación de las aplicaciones y servicios online**
+
+A partir de lo que Cory Doctorow denomina _enshittification_ y su "tragedia en 3 actos" analizamos cómo la experiencia de los usuarios ha empeorado en los últimos años debido a las decisiones de diseño de las plataformas.
+Explicamos cada uno de estos 3 actos y hacemos un paralelismo con lo que pasaría si eso se trasladara a un espacio público.
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-la-enshitificacion-de-internet-5-nov" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
+
+### 2. **La caída temporal de servicios de AWS**
 
 Comentamos acerca de lo frágil que puede llegar a resultar una infraestructura tan concentrada, teniendo en cuenta que los sistemas están cada vez más interconectados.
 Aprovechamos para contar nuevamente cómo funciona internet y qué es exactamente la computación "en la nube", cuyo principal proveedor hoy por hoy es AWS.
