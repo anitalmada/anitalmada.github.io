@@ -301,7 +301,7 @@ body {
 
 /* Sections */
 .section {
-    padding: 80px 0;
+    padding: 70px 0;
 }
 
 .section-title {
@@ -421,6 +421,49 @@ body {
     color: #3A663A;
     font-size: 12px;
     font-weight: bold;
+}
+
+/* Statistics Section */
+.statistics-section {
+    background: transparent;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+.statistics-section .container {
+    background: #FDFBF8;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(58, 102, 58, 0.15);
+}
+
+.statistics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.stat-item {
+    text-align: center;
+    width: 100%;
+}
+
+.stat-number {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffb3ba;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.stat-text {
+    font-size: 1.125rem;
+    color: #666;
+    line-height: 1.5;
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 /* About Section */
@@ -775,6 +818,48 @@ body {
     
     .post-image img {
         height: 200px;
+    }
+    
+    .statistics-section {
+        padding: 30px 0;
+        margin: 30px 0;
+    }
+    
+    .statistics-section .container {
+        padding: 25px 20px;
+    }
+    
+    .statistics-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .stat-number {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .statistics-section {
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    
+    .statistics-section .container {
+        padding: 20px 15px;
+    }
+    
+    .statistics-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .stat-number {
+        font-size: 3.5rem;
+    }
+    
+    .stat-text {
+        max-width: 100%;
     }
 }
 
