@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2025-11-12 11:34:00 -0300
+date: 2025-11-19 11:24:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
@@ -11,6 +11,16 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
 Todos los miércoles a las 9:30hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+### **Otra caída de servicios: qué es y cómo funciona una CDN y cuál fue su papel en los problemas de internet de ayer**
+
+Fecha: 19/11/2025
+
+Comentamos qué es y cómo funciona una Content Delivery Network para recordar que internet comenzó siendo algo muy simple y se fue complejizando quizás descuidando aspectos como una infraestructura resiliente o un proyecto de sostenibilidad. Lo que ayer se diseñó para mejorar la experiencia de los usuarios y disminuir la eficacia de los ataques por denegación de servicio (DDoS) hoy es un eslabón más en la frágil cadena que sostiene el ecosistema digital.
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-19-nov" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
 ### **"Instrucciones para no desaparecer": especial de Cenital sobre IA, futuro del trabajo y brecha de género**
 
