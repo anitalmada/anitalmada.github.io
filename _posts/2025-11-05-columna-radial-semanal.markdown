@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2025-11-19 11:24:00 -0300
+date: 2025-11-26 12:15:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
@@ -11,6 +11,17 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
 Todos los miércoles a las 9:30hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+## **Violencia digital: cómo identificarla, reportarla y qué podemos hacer como usuarios para tener mejores espacios digitales**
+
+Fecha: 26/11/2025
+
+Ayer 25 de noviembre fue el Día Internacional para Eliminar la Violencia contra la Mujer y la ONU compartió cifras acerca de la violencia digital y cómo ha crecido el último tiempo, afectando especialmente a mujeres y niñas.
+Por ese motivo, decidimos informar acerca de cuáles son las modalidades más conocidas de ejercer violencia online pero sobre todo qué acciones podemos tomar nosotros como usuarios parta disminuir la divulgación, distribución y viralización de los discursos agresivos y violentos.
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-26-nov" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
 ### **Otra caída de servicios: qué es y cómo funciona una CDN y cuál fue su papel en los problemas de internet de ayer**
 
