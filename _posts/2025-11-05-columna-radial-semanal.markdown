@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2025-11-26 12:15:00 -0300
+date: 2025-12-03 13:11:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
@@ -11,6 +11,16 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
 Todos los miércoles a las 9:30hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+## **Balance de 2025: los temas más recurrentes y las nuevas narrativas necesarias para enfrentar lo que se viene**
+
+Fecha: 03/12/2025
+
+Diciembre es mes de balances, repasamos la diversidad de temas que abordamos en esta columna y encontramos un hilo conductor entre muchos de ellos. A eso se le suma una constante: la fragilidad que implican la concentración e interdependencia de la infraestructura muestra un futuro preocupante. ¿Tenemos nuevas narrativas para habitar la tecnología? ¿Podemos salir de la constante búsqueda de "adaptación" ubicándonos siempre en un lugar pasivo respecto de las herramientas? Nos pusimos filosóficas, porque siempre es importante darle una vuelta más a las cosas que nos parecen obvias. Así esperamos el verano 2026.
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-de-tecnologia-3-dic" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
 ## **Violencia digital: cómo identificarla, reportarla y qué podemos hacer como usuarios para tener mejores espacios digitales**
 
