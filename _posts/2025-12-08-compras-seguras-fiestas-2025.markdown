@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Tutorial gratuito: cómo migrar contraseñas del navegador a un gestor"
-date: 2025-11-18 14:15:00 -0300
+title: "Cómo cuidarte de las estafas en estas fiestas: 5 precauciones básicas para compras online seguras"
+date: 2025-12-08 19:35:00 -0300
 categories: seguridad web
-image: /assets/images/ImagenMoodboard3.png
+image: /assets/images/pexels-nurseryart-363766.jpg
 ---
 
 # Cómo cuidarte de las estafas en estas fiestas: 5 precauciones básicas para compras online seguras
