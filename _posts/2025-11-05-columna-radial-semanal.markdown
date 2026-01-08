@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2025-12-03 13:11:00 -0300
+date: 2026-01-08 12:45:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
@@ -10,7 +10,17 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
-Todos los miércoles a las 9:30hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+Todos los jueves a las 11hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+## **La IA y el fin del periodismo: qué pasa cuando ya no podés confiar ni en las fuentes**
+
+Fecha: 08/01/2026
+
+A mediados de diciembre de 2025 hubo una noticia que no tuvo la repercusión que merece: un error en una nota sobre el sistema científico-tecnológico argentino contenía un error y mencionaba a un científico inexistente. Lo que podría haber sido un error trivial se convirtió en un dato que múltiples LLM's (modelos de lenguaje que usan los bots de IA) tomaron como válido, citando como fuente el artículo fallido. ¿Qué implica para nosotros como ciudadanos que cada vez sea menos confiable la información que circula en los medios y en las redes? ¿Cuáles estrategias nos quedan para evitar las noticias falsas o los contenidos sin chequear?
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-tecnologia-08-enero-2026" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
 ## **Balance de 2025: los temas más recurrentes y las nuevas narrativas necesarias para enfrentar lo que se viene**
 
