@@ -16,7 +16,7 @@ Todos los jueves a las 11hs nos escuchamos online o en el 98.1 del dial si está
 
 Fecha: 15/01/2026
 
-El concepto de la ventana de Overton nos ayuda a entender por qué alguna iodeas, conceptos o políticas públicas pasarond e ser inaceptables a ser totalmente válidas y aceptables.
+El concepto de la ventana de Overton nos ayuda a entender por qué alguna ideas, conceptos o políticas públicas pasaron de ser inaceptables a ser totalmente válidas y hasta populares.
 El caso de la creciente violencia digital facilitada por herramientas como Grok (la IA de la red social X) demuestra cómo los discursos de inevitabilidad, determinismo tecnológico pero sobre todo la impunidad de las personas que diseñan este tipo de herramientas está funcionando como estrategia para el corrimiento de los límites de lo aceptable.
 
 <div style="max-width: 720px; margin: 1rem 0;">
