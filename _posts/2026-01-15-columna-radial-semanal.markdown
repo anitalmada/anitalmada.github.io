@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2026-01-08 12:45:00 -0300
+date: 2026-01-15 12:53:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
@@ -11,6 +11,17 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
 Todos los jueves a las 11hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+## **La ventana de Overton: el caso de Grok y los deepfakes para entender las estrategias de corrimiento de los límites**
+
+Fecha: 15/01/2026
+
+El concepto de la ventana de Overton nos ayuda a entender por qué alguna iodeas, conceptos o políticas públicas pasarond e ser inaceptables a ser totalmente válidas y aceptables.
+El caso de la creciente violencia digital facilitada por herramientas como Grok (la IA de la red social X) demuestra cómo los discursos de inevitabilidad, determinismo tecnológico pero sobre todo la impunidad de las personas que diseñan este tipo de herramientas está funcionando como estrategia para el corrimiento de los límites de lo aceptable.
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-tecnologia-15-enero-2026" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
 ## **La IA y el fin del periodismo: qué pasa cuando ya no podés confiar ni en las fuentes**
 
