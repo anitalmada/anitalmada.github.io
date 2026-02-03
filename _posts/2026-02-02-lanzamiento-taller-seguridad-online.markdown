@@ -6,8 +6,6 @@ categories:
 image: /assets/images/imagenBlogcapacitacion.png
 ---
 
-## ¿Te sentís abrumado cada vez que necesitás crear o actualizar una contraseña?
-
 Seguramente ya pasaste por esto: intentás crear una cuenta nueva y el sitio te pide una contraseña "segura" con mayúsculas, números, símbolos y mínimo 12 caracteres. O peor aún, te llega un correo pidiéndote que actualices tu contraseña "por seguridad" y no te acordás cuál era la que tenías en ese sitio.
 
 El resultado es siempre el mismo: **caos total**. Tenés contraseñas anotadas en notas del celular, en papeles que se pierden, o simplemente usás la misma contraseña en todos lados porque es imposible recordar tantas variaciones. Y cuando intentás acceder desde otro dispositivo, es una pesadilla.
@@ -22,7 +20,7 @@ El resultado es siempre el mismo: **caos total**. Tenés contraseñas anotadas e
 Todas tus contraseñas en un solo lugar seguro, accesible desde tu celular y tu computadora. Olvidate de buscar notas perdidas o recordar qué contraseña usaste en cada sitio.
 
 ✅ **Solo 1 hora de tu tiempo**  
-En una sesión grabada, vas a aprender todo lo necesario para configurar tu sistema de protección. Luego, simplemente seguís los pasos y en menos de una hora vas a tener todas tus cuentas aseguradas.
+En este taller grabado, vas a aprender todo lo necesario para configurar tu sistema de protección. Hay espacios para pausas en cada paso importante, para que puedas seguirlo en tus dispositivos en el mismo momento que ves los videos.
 
 ✅ **Recursos 100% gratuitos y confiables**  
 Utilizamos herramientas gratuitas de código abierto, respaldadas por expertos en seguridad digital. No necesitás pagar suscripciones ni servicios premium para estar protegido.
@@ -31,7 +29,7 @@ Utilizamos herramientas gratuitas de código abierto, respaldadas por expertos e
 Configurá tu contraseña maestra una vez y nunca más vas a tener que memorizar otra. El sistema se encarga de generar y guardar contraseñas únicas y seguras para cada cuenta que uses.
 
 ✅ **Seguridad de dos factores sin complicaciones**  
-Activá la autenticación de dos factores directamente desde la misma herramienta. No necesitás instalar aplicaciones adicionales ni complicarte con códigos que llegan por SMS.
+Activá la autenticación de dos factores en tus cuentas más críticas desde la misma herramienta y aprendé el procedimiento que se repite siempre igual en cualquier otra aplicación.
 
 ✅ **Acceso desde cualquier dispositivo**  
 Tus contraseñas sincronizadas y disponibles en tu celular, tablet y computadora. Accedé a tus cuentas de forma segura desde donde estés, cuando lo necesites.
