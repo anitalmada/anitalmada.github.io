@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2026-01-15 12:53:00 -0300
+date: 2026-01-29 12:53:00 -0300
 categories: 
 image: /assets/images/imagenBlogRadio.png
 ---
@@ -11,6 +11,26 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
 Todos los jueves a las 11hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+## **Demanda contra WhatsApp por incumplir con la privacidad que prometen**
+
+Fecha: 29/01/2026
+
+El 23 de enero se presentó una demanda por parte de 5 litigantes en representación de usuarios de 5 países distintos contra Meta, la empresa responsable de WhatsApp. En la presentación judicial argumentan que los propios empleados de la empresa informaron que podían acceder al contenido de los mensajes de cualquiera de los usuarios mediante un simple procedimiento administrativo, lo cual va en contra de lo que la empresa promete en sus políticas de privacidad. 
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-tecnologia-29-enero-2026.mp-3" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
+
+## **Los usuarios sí importamos: el caso de Duolingo y su caída estrepitosa por decisiones en contra de la calidad de la aplicación**
+
+Fecha: 22/01/2026
+
+Duolingo fue noticia por haber padecido una caída del 45% en sus acciones debido a la pérdida masiva de usuarios de su aplicación. También se registraron bajas significativas en los niveles de uso de la misma, que serían causadas por la decisión empresarial de priorizar servicios de IA para sus contenidos y desvincular a gran parte de su staff temporal de empleados. Esto significó un empeoramiento de la experiencia de los usuarios, quienes reportaron problemas para acceder a contenidos, excesiva cantidad de publicidad aún en las cuentas de pago, etc. 
+
+<div style="max-width: 720px; margin: 1rem 0;">
+<iframe src="https://archive.org/embed/columna-tecnologia-22-enero-2026" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
 
 ## **La ventana de Overton: el caso de Grok y los deepfakes para entender las estrategias de corrimiento de los límites**
 
