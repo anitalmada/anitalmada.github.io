@@ -212,6 +212,60 @@ body {
     color: #2A4A2A;
 }
 
+/* Servicios dropdown (desktop) */
+.nav-item-dropdown {
+    position: relative;
+}
+
+.nav-item-dropdown .dropdown-trigger {
+    display: inline-block;
+}
+
+.nav-item-dropdown .dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background: #FDFBF8;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(58, 102, 58, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 100;
+}
+
+.nav-item-dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-item-dropdown .dropdown-menu li {
+    margin: 0;
+}
+
+.nav-item-dropdown .dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: #3A663A;
+    font-size: 1.1rem;
+}
+
+.nav-item-dropdown .dropdown-menu a:hover {
+    background: rgba(58, 102, 58, 0.08);
+    color: #2A4A2A;
+}
+
+/* Mobile: indent service sub-links */
+.mobile-menu .nav a[href="/servicios-web/"],
+.mobile-menu .nav a[href="/asesoria-capacitacion/"] {
+    padding-left: 24px;
+    font-size: 1.2rem;
+}
+
 .contact-btn {
     background: #3A663A;
     color: white;
@@ -325,6 +379,116 @@ body {
     margin-bottom: 0;
 }
 
+/* Pricing grid: 3 columns for Servicios Web plans */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.pricing-grid .service-card {
+    margin-bottom: 0;
+}
+
+.subsection-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 50px 0 20px 0;
+    color: #3A663A;
+}
+
+.subsection-title:first-of-type {
+    margin-top: 0;
+}
+
+.subsection-title.sub-subsection {
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+.pricing-grid + .subsection-title.sub-subsection {
+    margin-top: 20px;
+}
+
+.section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #666;
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.plan-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3A663A;
+    margin-bottom: 5px;
+}
+
+.plan-price span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.price-note {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Centralized CTA for Asesoría (site color palette) */
+.consulting-cta {
+    text-align: center;
+    padding: 50px 30px;
+    background: linear-gradient(135deg, #3A663A 0%, #2A4A2A 100%);
+    border-radius: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+.consulting-cta-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.consulting-cta-text {
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+}
+
+.consulting-cta .booking-btn {
+    background: white;
+    color: #3A663A;
+}
+
+.consulting-cta .booking-btn:hover {
+    background: #F8EEE5;
+    color: #2A4A2A;
+}
+
+.pricing-note-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(58, 102, 58, 0.06);
+    border-left: 4px solid #3A663A;
+    border-radius: 8px;
+    text-align: left;
+    color: #666;
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
 .service-card {
     background: #FDFBF8;
     padding: 40px;
@@ -393,6 +557,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%; /* Ensure full height */
+}
+
+.checklist-heading {
+    font-size: 1.25rem !important;
+    margin-top: 20px !important;
 }
 
 .checklist li {
@@ -803,9 +972,23 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 768px) {
     .posts {
         grid-template-columns: 1fr;
+    }
+    
+    .subsection-title {
+        font-size: 1.75rem;
+    }
+    
+    .consulting-cta-title {
+        font-size: 1.6rem;
     }
     
     .post {
@@ -1141,4 +1324,19 @@ body.post-page .section {
 /* Hide navigation menu on post pages */
 body.post-page .post-nav-hide {
     display: none !important;
+}
+
+/* Service pages: hide center nav (logo + contact button are enough) */
+body.service-page .nav-hide {
+    display: none !important;
+}
+
+/* Service pages: content below fixed header, ensure h1 section-title is visible */
+body.service-page .service-page-content {
+    padding-top: 120px;
+}
+
+body.service-page .service-page-content .section-title:first-child {
+    margin-top: 0;
+    padding-top: 0;
 }

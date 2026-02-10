@@ -19,7 +19,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
-<body{% if page.layout == 'post' %} class="post-page"{% endif %}>
+<body{% if page.layout == 'post' %} class="post-page"{% endif %}{% if page.layout == 'service' %} class="service-page"{% endif %}>
     <!-- Header -->
     <header class="header">
         <div class="container navbar-flex">
@@ -30,10 +30,16 @@
                     </a>
                 </div>
             </div>
-            <div class="navbar-section navbar-center desktop-nav post-nav-hide">
+            <div class="navbar-section navbar-center desktop-nav {% if page.layout == 'service' %}nav-hide{% endif %} post-nav-hide">
                 <nav class="nav">
                     <a href="#inicio">Inicio</a>
-                    <a href="#servicios">Servicios</a>
+                    <div class="nav-item-dropdown">
+                        <a href="/#servicios" class="dropdown-trigger">Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/servicios-web/">Servicios Web</a></li>
+                            <li><a href="/asesoria-capacitacion/">Asesoría y capacitación</a></li>
+                        </ul>
+                    </div>
                     <a href="https://con-alma-tech.tiendup.com">Cursos</a>
                     <a href="#acerca">Acerca de</a>
                     <a href="#blog">Blog</a>
@@ -49,12 +55,19 @@
             </button>
             <div class="mobile-menu" id="nav-mobile">
                 <nav class="nav post-nav-hide">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#servicios">Servicios</a>
-                    <a href="https://con-alma-tech.tiendup.com">Cursos</a>
-                    <a href="#acerca">Acerca de</a>
-                    <a href="#blog">Blog</a>
-                    <a href="https://wa.me/5491127895799" class="contact-btn" target="_blank">Contacto</a>
+                    {% if page.layout == 'service' %}
+                        <a href="/">Inicio</a>
+                        <a href="https://wa.me/5491127895799" class="contact-btn" target="_blank">Contacto</a>
+                    {% else %}
+                        <a href="#inicio">Inicio</a>
+                        <a href="/#servicios">Servicios</a>
+                        <a href="/servicios-web/">Servicios Web</a>
+                        <a href="/asesoria-capacitacion/">Asesoría y capacitación</a>
+                        <a href="https://con-alma-tech.tiendup.com">Cursos</a>
+                        <a href="#acerca">Acerca de</a>
+                        <a href="#blog">Blog</a>
+                        <a href="https://wa.me/5491127895799" class="contact-btn" target="_blank">Contacto</a>
+                    {% endif %}
                 </nav>
             </div>
         </div>
