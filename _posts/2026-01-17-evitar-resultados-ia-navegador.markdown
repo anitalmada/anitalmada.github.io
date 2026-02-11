@@ -3,6 +3,7 @@ layout: post
 title: "Evitar resultados de IA en buscadores web usando Opera"
 date: 2026-01-17 15:49:26 -0300
 categories: 
+description: Cómo configurar uBlock en Opera para bloquear resultados de IA en buscadores y mejorar tu privacidad. Tutorial paso a paso. Con Alma Tech.
 image: /assets/images/ublockenopera.png
 ---
 
@@ -43,4 +44,4 @@ Esta misma configuración se puede utilizar en todos los navegadores que permite
 _Nota: este post se escribió y se testeó en enero de 2026, las cosas cambian muy rápidamente así que tené en cuenta que depende cuándo lo estés leyendo puede que las interfaces y funcionalidades hayan cambiado._
 ---
 
-Si te resultó útil este tutorial y querés seguir aprendiendo sobre seguridad digital, privacidad online y herramientas para proteger tu navegación, te invito a seguirme en mis redes sociales.
+Si te resultó útil este tutorial y querés seguir aprendiendo sobre seguridad digital, privacidad online y herramientas para proteger tu navegación, te invito a seguirme en mis redes sociales. También ofrecemos [asesoría y capacitación](/asesoria-capacitacion/) para equipos que quieran profundizar en estos temas.

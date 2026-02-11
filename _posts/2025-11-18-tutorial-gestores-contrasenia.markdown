@@ -3,6 +3,7 @@ layout: post
 title: "Tutorial gratuito: cómo migrar contraseñas del navegador a un gestor"
 date: 2025-11-18 14:15:00 -0300
 categories: seguridad web
+description: Por qué no conviene usar el gestor del navegador y cómo migrar tus contraseñas a un gestor seguro. Tutorial y PDF gratuito. Con Alma Tech.
 image: /assets/images/ImagenMoodboard3.png
 ---
 
@@ -21,4 +22,4 @@ Como detallé en mi último posteo en redes sociales ([Instagram](https://www.in
 
 ## Descargá el **tutorial gratuito** haciendo [click aquí]({{ '/assets/pdfs/TutoPass.pdf' | relative_url }})
 
-Si te resultó útil esta información, podés compartirla y seguirme en mis redes sociales para más tips de seguridad y aplicaciones.
+Si te resultó útil esta información, podés compartirla y seguirme en mis redes sociales para más tips de seguridad y aplicaciones. Si querés llevar la seguridad digital a tu equipo, mirá nuestra [asesoría y capacitación](/asesoria-capacitacion/) con talleres y sesiones a medida.

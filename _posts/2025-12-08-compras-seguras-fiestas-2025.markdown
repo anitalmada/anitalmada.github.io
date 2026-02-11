@@ -3,6 +3,7 @@ layout: post
 title: "Cómo cuidarte de las estafas en estas fiestas: 5 precauciones básicas para compras online seguras"
 date: 2025-12-08 19:35:00 -0300
 categories: seguridad web
+description: 5 precauciones para compras online seguras en fiestas: verificar sitios, SSL, datos mínimos, pagos seguros. Para compradores y emprendedores. Con Alma Tech.
 image: /assets/images/pexels-nurseryart-363766.jpg
 ---
 
@@ -108,4 +109,4 @@ Implementá estas medidas en tu tienda online no solo para protegerte a vos, sin
 
 ---
 
-**¿Necesitás ayuda para hacer tu tienda online más segura?** Si sos emprendedor y querés asegurarte de que tu sitio web inspire confianza y proteja a tus clientes, puedo ayudarte. [Contactame aquí](https://cal.com/ana-laura-almada/consulta-por-soporte) para una consulta gratuita sobre seguridad y optimización de tu tienda online.
+**¿Necesitás ayuda para hacer tu tienda online más segura?** Si sos emprendedor y querés asegurarte de que tu sitio web inspire confianza y proteja a tus clientes, podemos ayudarte: con nuestros [servicios web](/servicios-web/) (mantenimiento, SSL, backups) o con [asesoría y capacitación](/asesoria-capacitacion/) para tu equipo. [Contactame aquí](https://cal.com/ana-laura-almada/consulta-por-soporte) para una consulta gratuita.

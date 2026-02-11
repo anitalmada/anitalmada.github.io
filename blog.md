@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blog
+title: Blog | Con Alma Tech
+description: Artículos sobre tecnología, seguridad online, mantenimiento web y buenas prácticas digitales. Con Alma Tech - Buenos Aires.
 permalink: /blog/
 ---
 

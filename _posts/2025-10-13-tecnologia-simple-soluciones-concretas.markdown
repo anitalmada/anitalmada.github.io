@@ -3,6 +3,7 @@ layout: post
 title: "Tecnología Simple para Soluciones Concretas"
 date: 2025-10-13 10:30:00 -0300
 categories: tecnologia soluciones
+description: Cómo elegir herramientas tecnológicas sin abrumarte. Filosofía de Con Alma Tech: simplicidad, capacitación y soporte continuo para emprendedores y equipos.
 image: /assets/images/imagenBlogcapacitacion.png
 ---
 
@@ -34,4 +35,4 @@ Hemos ayudado a emprendedores a:
 
 Si sientes que la tecnología te está complicando más que ayudando, es hora de buscar una solución simple y efectiva. 
 
-[Contacta con nosotros](https://cal.com/ana-laura-almada/consulta-por-capacitaciones) para una consulta gratuita y descubramos juntos cómo la tecnología puede simplificar tu trabajo.
+Conocé nuestros [servicios web](/servicios-web/) (mantenimiento y rescate de sitios) y nuestra [asesoría y capacitación](/asesoria-capacitacion/) para equipos. O [contactanos](https://cal.com/ana-laura-almada/consulta-por-capacitaciones) para una consulta gratuita y descubramos juntos cómo la tecnología puede simplificar tu trabajo.

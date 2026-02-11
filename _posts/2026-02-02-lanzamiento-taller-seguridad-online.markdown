@@ -3,6 +3,7 @@ layout: post
 title: "Nuevo taller: Seguridad online para principiantes"
 date: 2026-02-02 17:49:26 -0300
 categories: 
+description: Taller grabado para organizar contraseñas y proteger tus cuentas digitales en 1 hora. Gestores de contraseñas, 2FA y buenas prácticas sin conocimientos técnicos. Con Alma Tech.
 image: /assets/images/imagenBlogcapacitacion.png
 ---
 
@@ -51,4 +52,6 @@ Este taller es perfecto para vos si:
 
 **No necesitás experiencia previa en ciberseguridad.** Todo está explicado paso a paso, de forma clara y visual.
 
-**Inscribite a precio promocional de lanzamiento haciendo [click aquí](https://con-alma-tech.tiendup.com)**
+**Inscribite a precio promocional de lanzamiento haciendo [click aquí](https://con-alma-tech.tiendup.com).**
+
+Si tu equipo necesita capacitación en seguridad digital o uso de herramientas, conocé nuestra [asesoría y capacitación tecnológica](/asesoria-capacitacion/) con sesiones a medida.

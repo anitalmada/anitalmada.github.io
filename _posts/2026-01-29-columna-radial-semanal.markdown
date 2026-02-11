@@ -3,6 +3,7 @@ layout: post
 title: "Columna radial semanal"
 date: 2026-01-29 12:53:00 -0300
 categories: 
+description: Columna semanal de tecnología en Una Radio, Muchas Voces. Noticias, regulación, aplicaciones y reflexión sobre avances tecnológicos. Todos los jueves. Con Alma Tech.
 image: /assets/images/imagenBlogRadio.png
 ---
 
@@ -136,3 +137,5 @@ Cómo fue mutando el universo de las FinTech en Argentina a partir del surgimien
 <div style="max-width: 720px; margin: 1rem 0;">
 <iframe src="https://archive.org/embed/columna-de-tecnologia-endeudamiento-fintech-7-oct" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 </div>
+
+Si te interesa llevar estos temas a tu organización, conocé nuestra [asesoría y capacitación](/asesoria-capacitacion/) y nuestros [servicios web](/servicios-web/).

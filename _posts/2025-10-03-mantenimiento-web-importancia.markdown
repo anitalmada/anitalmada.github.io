@@ -3,6 +3,7 @@ layout: post
 title: "Por qué el Mantenimiento Web es Crucial para tu Negocio"
 date: 2025-10-03 14:15:00 -0300
 categories: mantenimiento web desarrollo
+description: Riesgos de no mantener tu sitio web actualizado: seguridad, rendimiento y funcionalidades. Qué incluye un mantenimiento adecuado y planes mensuales. Con Alma Tech - Buenos Aires.
 image: /assets/images/ImagenMoodboard3.png
 ---
 
@@ -54,4 +55,4 @@ En Con Alma Tech ofrecemos:
 
 Si tu sitio web no ha sido actualizado en más de 6 meses, es hora de actuar. 
 
-[Programa una consulta gratuita](https://cal.com/ana-laura-almada/consulta-por-soporte) y evaluemos el estado actual de tu sitio web.
+Conocé nuestros [planes de mantenimiento web](/servicios-web/) (preventivo, rescate y optimización) o [programá una consulta gratuita](https://cal.com/ana-laura-almada/consulta-por-soporte) para evaluar el estado de tu sitio.
