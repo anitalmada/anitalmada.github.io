@@ -3,7 +3,7 @@ layout: post
 title: "Tecnología Simple para Soluciones Concretas"
 date: 2025-10-13 10:30:00 -0300
 categories: tecnologia soluciones
-description: Cómo elegir herramientas tecnológicas sin abrumarte. Filosofía de Con Alma Tech: simplicidad, capacitación y soporte continuo para emprendedores y equipos.
+description: "Cómo elegir herramientas tecnológicas sin abrumarte. Filosofía de Con Alma Tech: simplicidad, capacitación y soporte continuo para emprendedores y equipos."
 image: /assets/images/imagenBlogcapacitacion.png
 ---
 

@@ -1073,14 +1073,44 @@ body {
     margin-bottom: 30px;
 }
 
-.blog-page .post h2 {
+.blog-page .post h2,
+.blog-page .post h2.post-title {
     color: #3A663A;
     margin-bottom: 10px;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.blog-page .post h2 a:hover {
+.blog-page .post h2 a,
+.blog-page .post h2.post-title a {
+    color: #3A663A;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blog-page .post h2 a:hover,
+.blog-page .post h2.post-title a:hover {
     color: #2A4A2A;
+}
+
+.blog-page .post-image {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 15px rgba(58, 102, 58, 0.1);
+}
+
+.blog-page .post-image img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.blog-page .post-image:hover img {
+    transform: scale(1.05);
 }
 
 /* Blog Post Page Styles */

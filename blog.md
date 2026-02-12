@@ -12,7 +12,12 @@ permalink: /blog/
         <div class="posts">
             {% for post in site.posts %}
                 <article class="post">
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {% if post.image %}
+                        <div class="post-image">
+                            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+                        </div>
+                    {% endif %}
+                    <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                     <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
                     <div class="post-excerpt">
                         {{ post.excerpt | default: post.content | strip_html | truncate: 200 }}
