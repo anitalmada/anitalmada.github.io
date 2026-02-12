@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Columna radial semanal"
-date: 2026-01-29 12:53:00 -0300
+date: 2026-02-12 19:23:00 -0300
 categories: 
 description: Columna semanal de tecnología en Una Radio, Muchas Voces. Noticias, regulación, aplicaciones y reflexión sobre avances tecnológicos. Todos los jueves. Con Alma Tech.
 image: /assets/images/imagenBlogRadio.png
@@ -12,6 +12,20 @@ Todas las semanas nos encontramos en [Una Radio, Muchas Voces](https://unaradio.
 Te dejo el listado actualizado con las columnas disponibles para que las puedas escuchar cuando quieras. Podés dejar comentarios, sugerencias de temas o respuestas a las preguntas escribiendo a contacto@conalma.tech
 
 Todos los jueves a las 11hs nos escuchamos online o en el 98.1 del dial si estás en Capilla del Monte (Córdoba - Argentina)
+
+# Columnas Febrero 2026
+
+Fecha: 5/02/2026
+
+**La rebelión de las máquinas aún no llegó**: por qué muchas de las informaciones acerca de OpenClawd no son tan importantes como las presentaron. Los riesgos reales que seguimos ignorando y la necesidad de entender todo lo que se encuentra bajo el gran paraguas conceptual de "Inteligencia Artificial". 
+
+Fecha: 12/02/2026
+
+**LatamGPT, el Gran Modelo de Lenguaje pensado y diseñado por y para Latinoamérica**. El martes pasado se presentó [LatamGPT](https://latamgpt.org), el resultado de una iniciativa inédita de colaboración internacional para desarrollar un modelo pre-entrenado con datos provenientes y pertenecientes exclusivamente a Latinoamérica. Cómo funciona, aspectos positivos y negativos, desafíos y expectativas.
+
+<iframe src="https://archive.org/embed/columna-tecnologia-12-feb-2026" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+# Columnas anteriores
 
 ## **Demanda contra WhatsApp por incumplir con la privacidad que prometen**
 
