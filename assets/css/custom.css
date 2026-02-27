@@ -373,10 +373,23 @@ body {
     gap: 60px;
     align-items: stretch; /* Changed from start to stretch for equal heights */
     margin-bottom: 60px; /* Reduced from 80px for consistent spacing */
+    width: 100%;
 }
 
 .services-grid:last-child {
     margin-bottom: 0;
+}
+
+/* Mobile/tablet: stack service cards in one column to avoid overflow and horizontal scroll */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .services-grid .service-card {
+        min-width: 0; /* allow card to shrink within grid */
+    }
 }
 
 /* Pricing grid: 3 columns for Servicios Web plans */
@@ -508,6 +521,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%; /* Ensure full height */
+    min-width: 0; /* prevent grid overflow on narrow screens */
 }
 
 .service-title {
